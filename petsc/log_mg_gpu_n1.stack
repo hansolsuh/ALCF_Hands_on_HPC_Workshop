@@ -1,0 +1,345 @@
+Main Stage 1961746
+Main Stage;SNESSolve 271
+Main Stage;SNESSolve;SNESJacobianEval 19562
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply 1413561
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 395
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 1372553
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval;VecCUDACopyFrom 386214
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin 1217
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin;DCtxSync 194170
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;VecAXPY 326928
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;VecCopy 232875
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;VecCUDACopyFrom 5979
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorApply;VecNorm 3175
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorSetUp 3188507
+Main Stage;SNESSolve;SNESJacobianEval;MatFDColorCreate 72814
+Main Stage;SNESSolve;PCSetUp 1041
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8 173
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval 4489
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply 345557
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 331
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 349399
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval;VecCUDACopyFrom 97336
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin 1045
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin;DCtxSync 49016
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;VecAXPY 78046
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;VecCopy 75772
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;VecCUDACopyFrom 2407
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorApply;VecNorm 2323
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorSetUp 816330
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESJacobianEval;MatFDColorCreate 18579
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;DMCreateMat 338645
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;DMCreateMat;MatAssemblyEnd 21807
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp 45606
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve 1826
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;MatMult 17201
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;MatMult;MatCUSPARSCopyTo 92483
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;PCApply 33112
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;PCApply;VecPointwiseMult 7975
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;KSPGMRESOrthog 51
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMDot 9626
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMAXPY 3686
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;VecCopy 12110
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;VecNormalize 1239
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;KSPSolve;VecNormalize;VecNorm 2410
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;KSPSetUp;PCSetUp 45721
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESFunctionEval 97
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESFunctionEval;SNESFunctionEval 34493
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESFunctionEval;SNESFunctionEval;VecCUDACopyFrom 2454
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 8;SNESFunctionEval;VecScatterBegin 3423
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9 15
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp 176023
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve 1637
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;MatMult 66163
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;MatMult;MatCUSPARSCopyTo 368109
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;PCApply 119560
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;PCApply;VecPointwiseMult 26001
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;PCApply;VecCUDACopyFrom 3424
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;KSPGMRESOrthog 52
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMDot 33835
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMAXPY 13218
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;VecCopy 44975
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;VecNormalize 52
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;VecNormalize;VecNorm 4345
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;VecNormalize;VecScale 3916
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;KSPSolve;VecMAXPY 2487
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;PCSetUp 169713
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 9;KSPSetUp;PCSetUp;VecCUDACopyFrom 6847
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp 186329
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;MatConvert 505959
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;MatConvert;MatAssemblyEnd 66296
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;MatMultTranspose 5082
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;MatMultTranspose;MatCUSPARSCopyTo 31676
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;MatAssemblyEnd 16753
+Main Stage;SNESSolve;PCSetUp;DMCreateInterp;VecSet 6638
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7 150
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval 1159
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply 84484
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 205
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 87676
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval;VecCUDACopyFrom 24853
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin 677
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin;DCtxSync 12654
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;VecAXPY 9841
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorApply;VecCopy 9632
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorSetUp 190668
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESJacobianEval;MatFDColorCreate 4715
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;DMCreateMat 84049
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;DMCreateMat;MatAssemblyEnd 5530
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp 12387
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve 1127
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;MatMult 4731
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;MatMult;MatCUSPARSCopyTo 23553
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;PCApply 8984
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;PCApply;VecPointwiseMult 3194
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;KSPGMRESOrthog 1279
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMDot 3755
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;VecNormalize 971
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;VecNormalize;VecNorm 2080
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;KSPSolve;VecCopy 2934
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;KSPSetUp;PCSetUp 13092
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESFunctionEval 99
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESFunctionEval;SNESFunctionEval 9533
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 7;SNESFunctionEval;VecScatterBegin 2170
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6 117
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval 318
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply 21376
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 173
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 21971
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval;VecCUDACopyFrom 6706
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin 525
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;VecScatterBegin;DCtxSync 3555
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;VecCopy 2518
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorApply;VecAXPY 2279
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorSetUp 47939
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESJacobianEval;MatFDColorCreate 2221
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp 5809
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve 2061
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;MatMult 1935
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;MatMult;MatCUSPARSCopyTo 6108
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;PCApply 2827
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;PCApply;VecPointwiseMult 2240
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;VecNormalize 881
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;VecNormalize;VecNorm 2038
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;KSPGMRESOrthog 927
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMDot 1837
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;KSPSetUp;PCSetUp 3464
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;DMCreateMat 23205
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESFunctionEval 73
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESFunctionEval;SNESFunctionEval 3483
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 6;SNESFunctionEval;VecScatterBegin 1825
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5 73
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval 1247
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval;MatFDColorApply 5600
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 1768
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 5675
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval;VecCUDACopyFrom 2410
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESJacobianEval;MatFDColorSetUp 11385
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp 1350
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp;KSPSolve 2051
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp;KSPSolve;VecNormalize 877
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp;KSPSolve;VecNormalize;VecNorm 1908
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp;KSPSolve;MatMult 2554
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;KSPSetUp;KSPSolve;KSPGMRESOrthog 2511
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;DMCreateMat 6908
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 5;SNESFunctionEval 1896
+Main Stage;SNESSolve;PCSetUp;DMCreateInject 10039
+Main Stage;SNESSolve;PCSetUp;DMCreateInject;SFSetUp 20629
+Main Stage;SNESSolve;PCSetUp;DMCreateInject;SFSetGraph 7804
+Main Stage;SNESSolve;PCSetUp;DMCoarsen 9995
+Main Stage;SNESSolve;PCSetUp;DMCoarsen;SFSetUp 10921
+Main Stage;SNESSolve;PCSetUp;DMCoarsen;SFSetGraph 7797
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4 1723
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;SNESJacobianEval 63
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;SNESJacobianEval;MatFDColorApply 1477
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 1157
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;SNESJacobianEval;MatFDColorApply;MatFDColorFunc;SNESFunctionEval 3263
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;SNESJacobianEval;MatFDColorSetUp 3911
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;KSPSetUp 660
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;KSPSetUp;KSPSolve 2767
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;KSPSetUp;KSPSolve;VecNormalize 876
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;KSPSetUp;KSPSolve;VecNormalize;VecNorm 1980
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;KSPSetUp;KSPSolve;KSPGMRESOrthog 2417
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 4;DMCreateMat 3404
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 0 3136
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 0;PCSetUp 1375
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 0;PCSetUp;MatLUFactorNum 14561
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 0;SNESJacobianEval 186
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 0;SNESJacobianEval;MatFDColorApply 1826
+Main Stage;SNESSolve;PCSetUp;MatMult 539
+Main Stage;SNESSolve;PCSetUp;MatMult;VecScatterBegin 17309
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3 1660
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;KSPSetUp 465
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;KSPSetUp;KSPSolve 2369
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;KSPSetUp;KSPSolve;VecNormalize 897
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;KSPSetUp;KSPSolve;VecNormalize;VecNorm 1988
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;KSPSetUp;KSPSolve;KSPGMRESOrthog 2398
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;SNESJacobianEval 1273
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;SNESJacobianEval;MatFDColorApply 428
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;SNESJacobianEval;MatFDColorApply;MatFDColorFunc 2302
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 3;DMCreateMat 1918
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1 1505
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;KSPSetUp 702
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;KSPSetUp;KSPSolve 2498
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;KSPSetUp;KSPSolve;KSPGMRESOrthog 992
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;KSPSetUp;KSPSolve;KSPGMRESOrthog;VecMDot 2292
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;KSPSetUp;KSPSolve;VecNormalize 2888
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;SNESFunctionEval 2840
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 1;SNESJacobianEval 1928
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2 3185
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;KSPSetUp 419
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;KSPSetUp;KSPSolve 2113
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;KSPSetUp;KSPSolve;VecNormalize 884
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;KSPSetUp;KSPSolve;VecNormalize;VecNorm 1862
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;KSPSetUp;KSPSolve;KSPGMRESOrthog 2398
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;SNESJacobianEval 438
+Main Stage;SNESSolve;PCSetUp;MGSetup Level 2;SNESJacobianEval;MatFDColorApply 1928
+Main Stage;SNESSolve;KSPSolve 1844
+Main Stage;SNESSolve;KSPSolve;PCApply 42
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply 862
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9 108
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve 363
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;MatMult 324937
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;VecAYPX 76328
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;VecAXPBYCZ 51359
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;PCApply 71
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;PCApply;VecPointwiseMult 38753
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 9;KSPSolve;VecCopy 24035
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8 95
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve 294
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;MatMult 85707
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;VecAYPX 17711
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;VecAXPBYCZ 14549
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;PCApply 62
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;PCApply;VecPointwiseMult 12591
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 8;KSPSolve;VecCopy 8226
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 9 35
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 9;MatResidual 41
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 9;MatResidual;MatMult 108654
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 9;MatResidual;VecAYPX 15223
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7 78
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve 266
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;MatMult 23876
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;VecAYPX 7425
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;VecAXPBYCZ 6766
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;PCApply 59
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;PCApply;VecPointwiseMult 4864
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 7;KSPSolve;VecCopy 4302
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 9 63
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 9;MatMultAdd 21388
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 9;MatMultTranspose 19918
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 8 22
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 8;MatResidual 37
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 8;MatResidual;MatMult 28622
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 8;MatResidual;VecAYPX 3489
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6 80
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve 273
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;MatMult 9310
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;VecAYPX 5910
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;VecAXPBYCZ 5688
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;PCApply 61
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;PCApply;VecPointwiseMult 4008
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 6;KSPSolve;VecCopy 3739
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5 82
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve 283
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;VecAYPX 5540
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;VecAXPBYCZ 5521
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;MatMult 5500
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;PCApply 61
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;PCApply;VecPointwiseMult 3856
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 5;KSPSolve;VecCopy 2852
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4 77
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve 258
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;VecAXPBYCZ 5432
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;VecAYPX 5401
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;MatMult 4314
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;PCApply 61
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;PCApply;VecPointwiseMult 3819
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 4;KSPSolve;VecCopy 2801
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3 74
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve 271
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;VecAXPBYCZ 5454
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;VecAYPX 5383
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;MatMult 4029
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;PCApply 69
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;PCApply;VecPointwiseMult 3794
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 3;KSPSolve;VecCopy 2803
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2 76
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve 290
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;VecAXPBYCZ 5493
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;VecAYPX 5343
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;MatMult 3872
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;PCApply 70
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;PCApply;VecPointwiseMult 3776
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 2;KSPSolve;VecCopy 2780
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1 76
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve 305
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;VecAXPBYCZ 5416
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;VecAYPX 5365
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;PCApply 66
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;PCApply;VecPointwiseMult 3698
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;MatMult 3725
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 1;KSPSolve;VecCopy 2780
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 8 51
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 8;MatMultAdd 6476
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 8;MatMultTranspose 6422
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 7 19
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 7;MatResidual 1569
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 7;MatResidual;MatMult 8124
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 0 40
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 0;KSPSolve 110
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 0;KSPSolve;PCApply 37
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGSmooth Level 0;KSPSolve;PCApply;MatSolve 6493
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 7 47
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 7;MatMultTranspose 2926
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 7;MatMultAdd 2792
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 6 21
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 6;MatResidual 1226
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 6;MatResidual;MatMult 3112
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;VecSet 4028
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 6 1749
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 6;MatMultTranspose 1960
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 5 1499
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 5;MatMultTranspose 1822
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 4 3109
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 3 2950
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 5 21
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 5;MatResidual 2911
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 2 2887
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGInterp Level 1 2782
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 4 20
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 4;MatResidual 2493
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 3 18
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 3;MatResidual 2415
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 2 21
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 2;MatResidual 2368
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 1 22
+Main Stage;SNESSolve;KSPSolve;PCApply;MG Apply;MGResid Level 1;MatResidual 2306
+Main Stage;SNESSolve;KSPSolve;KSPGMRESOrthog 76
+Main Stage;SNESSolve;KSPSolve;KSPGMRESOrthog;VecMDot 73741
+Main Stage;SNESSolve;KSPSolve;KSPGMRESOrthog;VecMAXPY 32357
+Main Stage;SNESSolve;KSPSolve;MatMult 102104
+Main Stage;SNESSolve;KSPSolve;VecNormalize 59
+Main Stage;SNESSolve;KSPSolve;VecNormalize;VecNorm 6495
+Main Stage;SNESSolve;KSPSolve;VecNormalize;VecScale 5874
+Main Stage;SNESSolve;KSPSolve;VecMAXPY 3722
+Main Stage;SNESSolve;SNESLineSearch 3125
+Main Stage;SNESSolve;SNESLineSearch;SNESFunctionEval 50
+Main Stage;SNESSolve;SNESLineSearch;SNESFunctionEval;SNESFunctionEval 100322
+Main Stage;SNESSolve;SNESLineSearch;SNESFunctionEval;SNESFunctionEval;VecCUDACopyFrom 9299
+Main Stage;SNESSolve;SNESLineSearch;SNESFunctionEval;VecScatterBegin 66
+Main Stage;SNESSolve;SNESLineSearch;SNESFunctionEval;VecScatterBegin;DCtxSync 9234
+Main Stage;SNESSolve;SNESLineSearch;VecNorm 10336
+Main Stage;SNESSolve;SNESLineSearch;MatMult 6229
+Main Stage;SNESSolve;SNESFunctionEval 92
+Main Stage;SNESSolve;SNESFunctionEval;SNESFunctionEval 94391
+Main Stage;SNESSolve;SNESFunctionEval;SNESFunctionEval;VecCUDACopyFrom 3150
+Main Stage;SNESSolve;SNESFunctionEval;VecScatterBegin 5031
+Main Stage;SNESSolve;SNESFunctionEval;VecScatterBegin;DCtxSync 3139
+Main Stage;SNESSolve;VecNorm 3578
+Main Stage;SNESSolve;VecNorm;cuBLAS Init 33476
+Main Stage;SNESSetUp 53
+Main Stage;SNESSetUp;DMCreateMat 1379132
+Main Stage;SNESSetUp;DMCreateMat;MatAssemblyEnd 96364
+Main Stage;SFSetUp 34828
+Main Stage;SFSetGraph 26087
